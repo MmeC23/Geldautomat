@@ -10,7 +10,7 @@ print("\n                 +++ GELDAUTOMAT +++\n")
 
 def start():
     print("Bitte führen Sie Ihre Karte ein.")
-    print("Frage an die cash mashine: Ist eine Karte eingeführt? j/n")
+    print("Frage an die cash machine: Ist eine Karte eingeführt? j/n")
     karte_eingefuehrt = input(">")
     
     if karte_eingefuehrt == "j":
