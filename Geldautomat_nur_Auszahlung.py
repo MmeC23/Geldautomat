@@ -5,13 +5,13 @@
 print("\n                 +++ GELDAUTOMAT +++\n")
 
 #Vorgang starten
-#start()   # das muss nach unten!!!!
+#start()   # muss nach unten!!!!
 
 
 def start():
     print("Bitte führen Sie Ihre Karte ein.")
     print("Frage an die cash mashine: Ist eine Karte eingeführt? j/n")
-    karte_eingefuehrt = input(">") # WAS BEDEUTET DIESES > IN DIESEM FALLE???
+    karte_eingefuehrt = input(">")
     
     if karte_eingefuehrt == "j":
         print("Bitte warten Sie einen Moment.")
